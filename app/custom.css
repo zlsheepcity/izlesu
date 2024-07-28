@@ -1,3 +1,32 @@
 /** ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ customcss */
 /** customcss **/
 /** ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
+
+/** layouts **/
+
+    .layoutGallery .gridline[homepage-layout] {
+      --grid-template-columns: max-content 1fr;
+    }
+
+/** headers **/
+
+    [header-logo] {
+        padding: 0.25em 0.75em;
+    }
+    [header-logo] h1 {
+        font-size: 2em;
+    }
+
+/** menus **/
+
+    .LinkmenuGrid {
+        font-size: 1.5em;
+    }
+    .LinkmenuGrid ul+ul {
+        padding-top: 0.5em;
+    }
+
+    .LinkmenuGrid a:hover,
+    .LinkmenuGrid a:active {
+        color: var(--link-color, inherit);
+    }

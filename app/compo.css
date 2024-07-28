@@ -11,8 +11,8 @@
 /** ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ colors */
 
     .layoutGallery {
-      --color:            hsl(226, 27%, 90%); /* NobleWhite */
-      --background-color: hsl(226, 15%, 12%); /* NobleBlack */
+      --color:            var(--colorPaperTone);
+      --background-color: var(--colorPaperDark);
     }
 
     .layoutGallery:not(.transparent) {
