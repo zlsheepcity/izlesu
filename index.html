@@ -70,55 +70,65 @@
 <body>
     <main class="layoutGallery">
 
-        <section class="gridline screensize"
-                 style="
+        <section class="gridline screensize elCoverLayout2025">
+            <style>
+                .elCoverLayout2025 {
                      background-image: url(art/coverForestDark.jpg);
                      background-position: 50% 50%;
                      background-size: cover;
-                 ">
-            <article class="typography-loscuts">
+                     display: grid;
+                }
+                .layoutGallery .gridline.elCoverLayout2025 {
+                     grid-template-columns: 1fr max-content;
+                }
+            </style>
+            <style>
+                .typography-loscuts >* {
+                    background-color: var(--background-color);
+                               color: var(--foreground-color);
+                    padding: 0.69em 0.69em 0.69em 0.34em;
+                    width: max-content;
+                    z-index: 2;
+                }
+                .typography-loscuts >[space] {margin-top: 0.69em;}
+                ul.typography-loscuts {
+                    margin: 0;
+                    list-style: none;
+                }
+                ul.typography-loscuts li {
+                    font-size: 1.5em;
+                    padding-top: 0.13em;
+                    padding-bottom: 0.13em;
+                    padding-right: 0.21em;
+                }
+                ul.typography-loscuts li::after {
+                    content:   '…';
+                    opacity:   0.69;
+                    font-size: 0.69em;}
+                ul.typography-loscuts li+li {margin-top: 0.21em;}
+            </style>
+            <section class="gridline">
 
-                <style>
-                    .typography-loscuts >* {
-                        background-color: var(--background-color);
-                                   color: var(--foreground-color);
-                        padding: 0.69em 0.69em 0.69em 0.34em;
-                        width: max-content;
-                    }
-                    .typography-loscuts >[space] {margin-top: 0.69em;}
-                    ul.typography-loscuts {
-                        margin: 0;
-                        list-style: none;
-                    }
-                    ul.typography-loscuts li {
-                        font-size: 1.5em;
-                        padding-top: 0.13em;
-                        padding-bottom: 0.13em;
-                        padding-right: 0.21em;
-                    }
-                    ul.typography-loscuts li::after {content:'…';opacity:0.69; font-size: 0.69em;}
-                    ul.typography-loscuts li+li {margin-top: 0.21em;}
-                </style>
-
-                <header header-logo space>
-                    <h1>izlesu</h1>
-                    <h2 class="font-feature-digital"
-                        style="font-size: 1.54em ;">
-                        2025·I·1
-                    </h2>
-                </header>
-            </article>
+                <article class="typography-loscuts">
+                    <header header-logo space>
+                        <h1>izlesu</h1>
+                        <h2 class="font-feature-digital"
+                            style="font-size: 1.54em ;">
+                            2025·I·1
+                        </h2>
+                    </header>
+                </article>
 
                 <ul class="typography-loscuts">
                     <li space><a href="index-materials.html">Материалы</a>
                     <li><a href="index-maps.html">Карты</a>
                 </ul>
 
-            <article class="typography-loscuts">
-                <div style="padding: 0 0.69em 0 0.34em; margin: 1.69em 0 0.5em 0;">
-                    Фотки:
-                </div>
-            </article>
+                <article class="typography-loscuts">
+                    <div style="padding: 0 0.69em 0 0.34em; margin: 1.69em 0 0.5em 0;">
+                        Фотки:
+                    </div>
+                </article>
 
                 <ul class="typography-loscuts">
                     <li><a href="index-summer.html">Лето</a>
@@ -126,15 +136,17 @@
                     <li><a href="index-fire.html">Огонь</a>
                 </ul>
 
-            <article class="typography-loscuts">
-                <p space style="margin-top: 2.69em;">
-                    — Кто мы?<br>
-                    — Излесу!<br>
-                    — Откуда мы?<br>
-                    — Излесу!<br>
-                </p>
-            </article>
-
+            </section>
+            <section class="gridline">
+                <article class="typography-loscuts">
+                    <p space>
+                        — Кто мы?<br>
+                        — Излесу!<br>
+                        — Откуда мы?<br>
+                        — Излесу!<br>
+                    </p>
+                </article>
+            </section>
         </section>
 
         <section class="CardListGrid">
