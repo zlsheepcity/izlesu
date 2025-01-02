@@ -2,6 +2,19 @@
 /** customcss **/
 /** ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
 
+/** components2025 **/
+
+    .ulClickableLinks {
+        font-size: 1.34em;
+        text-overflow: clip;
+}
+    [header-accent] {
+        color: var(--accent-color, inherit);
+    }
+    [header-accent] >* {
+        margin-bottom: 0;
+    }
+
 /** layouts2024 **/
 
     .layoutGallery .gridline[homepage-layout] {
