@@ -1,4 +1,4 @@
-# izlesu 2024
+# izlesu 2025
 Community materials  
 https://zlsheepcity.github.io/izlesu/  
 
@@ -6,3 +6,10 @@ https://zlsheepcity.github.io/izlesu/
 Кто мы? Излесу!
 Откуда мы? Излесу!
 ```
+
+## release 2025.1.1
+
+- Раздел «Точки» для координат  
+- «Контакты» с социальными ссылками  
+- «Картинки» для использования  
+
