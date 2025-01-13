@@ -7,6 +7,9 @@ https://zlsheepcity.github.io/izlesu/
 Откуда мы? Излесу!
 ```
 
+## event 2025.2.1
+https://zlsheepcity.github.io/izlesu/events/exhibition/  
+
 ## release 2025.1.1
 
 - Раздел «Точки» для координат  
