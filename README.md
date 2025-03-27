@@ -7,6 +7,9 @@ https://zlsheepcity.github.io/izlesu/
 Откуда мы? Излесу!
 ```
 
+## event 2025.4.6
+https://zlsheepcity.github.io/izlesu/events/april/  
+
 ## event 2025.2.1
 https://zlsheepcity.github.io/izlesu/events/exhibition/  
 
